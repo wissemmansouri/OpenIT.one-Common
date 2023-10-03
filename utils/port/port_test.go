@@ -1,5 +1,4 @@
 package port_test
-
 import (
 	"fmt"
 	"testing"
