@@ -1,5 +1,4 @@
 package ssh
-
 import (
 	"bytes"
 	json2 "encoding/json"
