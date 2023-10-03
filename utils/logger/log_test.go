@@ -1,5 +1,4 @@
 package logger_test
-
 import (
 	"testing"
 
