@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/IceWhaleTech/OpenIT.one-Common/model"
-	"github.com/IceWhaleTech/OpenIT.one-Common/utils/common_err"
+	"github.com/wissemmansouri/OpenIT.one-Common/model"
+	"github.com/wissemmansouri/OpenIT.one-Common/utils/common_err"
 	"github.com/gin-gonic/gin"
 )
 
