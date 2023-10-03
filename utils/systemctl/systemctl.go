@@ -1,4 +1,5 @@
 package systemctl
+
 import (
 	"context"
 	"errors"
