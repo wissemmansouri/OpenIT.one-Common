@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	http2 "github.com/wisemmansouri/OpenIT.one-Common/utils/http"
+	"github.com/wisemmansouri/OpenIT.one-Common/utils/http"
 )
 
 func getAddress(addressFile string) (string, error) {
