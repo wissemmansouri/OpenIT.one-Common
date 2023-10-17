@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	http2 "github.com/wissemmansouri/OpenIT.one-Common/utils/http"
+	"github.com/wissemmansouri/OpenIT.one-Common/utils/http"
 )
 
 const (
