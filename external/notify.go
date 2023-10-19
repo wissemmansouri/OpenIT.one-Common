@@ -13,8 +13,8 @@ import (
 )
 
 const (
-	OpenIT.oneURLFilename = "openit.url"
-	APIOpenIt.oneNotify   = "/v1/notify"
+	OpenITURLFilename = "openit.url"
+	APIOpenItNotify   = "/v1/notify"
 )
 
 type NotifyService interface {
