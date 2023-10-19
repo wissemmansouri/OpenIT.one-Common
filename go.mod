@@ -2,6 +2,7 @@ module github.com/wissemmansouri/OpenIT.one-Common
 
 go 1.20
 
+
 require (
 	github.com/coreos/go-systemd/v22 v22.5.0
 	github.com/gin-gonic/gin v1.7.7
@@ -59,4 +60,7 @@ require (
 	google.golang.org/protobuf v1.30.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.4.0
+)
+require ( 
+          github.com/wissemmansouri/OpenIT.one-Common/utils/common-err v1.0.0
 )
