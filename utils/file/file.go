@@ -1,7 +1,7 @@
 package file
 
 import (
-	"bufio"
+	"bufio" 
 	"errors"
 	"fmt"
 	"io"
