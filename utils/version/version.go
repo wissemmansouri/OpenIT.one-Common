@@ -55,11 +55,11 @@ func init() {
 	execStart := key.Value()
 	texts := strings.Split(execStart, " ")
 
-	// locaste casaos binary.
+	// locaste openit binary.
 	_openITBinFilePath = texts[0]
 
 	if _, err := os.Stat(_openITBinFilePath); os.IsNotExist(err) {
-		_openITBinFilePath, err = exec.LookPath("casaos")
+		_openITBinFilePath, err = exec.LookPath("openit")
 
 		if err != nil {
 			return
@@ -130,7 +130,7 @@ func DetectVersion() (int, int, int, error) {
 
 // Detect minor version of OpenIT. It returns 2 for "0.2.x" or 3 for "0.3.x"
 //
-// (This is often useful when failing to get version from API because CasaOS is not running.)
+// (This is often useful when failing to get version from API because OpenIT is not running.)
 func DetectMinorVersion() (int, error) {
 	if _configFile == nil {
 		return -1, ErrLegacyVersionNotFound
