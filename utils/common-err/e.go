@@ -1,4 +1,4 @@
-package common_err
+package common-err
 
 const (
 	SUCCESS          = 200
