@@ -28,7 +28,7 @@ func (n *shareService) DeleteShare(id string) error {
 		return err
 	}
 
-	url := strings.TrimSuffix(address, "/") + APICasaOSShare + "/" + id
+	url := strings.TrimSuffix(address, "/") + APIOpenITShare + "/" + id
 	fmt.Println(url)
 
 	response, err := http2.Delete(url, []byte("{}"), 30*time.Second)
@@ -45,6 +45,6 @@ func (n *shareService) DeleteShare(id string) error {
 
 func NewShareService(runtimePath string) ShareService {
 	return &shareService{
-		addressFile: filepath.Join(runtimePath, CasaOSURLFilename),
+		addressFile: filepath.Join(runtimePath, OpenITURLFilename),
 	}
 }
