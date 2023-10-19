@@ -61,6 +61,3 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.4.0
 )
-require ( 
-          github.com/wissemmansouri/OpenIT.one-Common/utils/common-err v1.0.0
-)
