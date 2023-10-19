@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	http2 "github.com/wisemmansouri/OpenIT.one-Common/utils/http"
+	http2 "github.com/wissemmansouri/OpenIT.one-Common/utils/http"
 
 )
 
