@@ -12,7 +12,7 @@ import (
 )
 
 const (
-	APIOpenIT.oneShare = "/v1/samba/shares"
+	APIOpenITShare = "/v1/samba/shares"
 )
 
 type ShareService interface {
