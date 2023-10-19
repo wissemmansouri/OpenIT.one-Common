@@ -1,6 +1,6 @@
 package constants
 
-const (
+const (  
 	DefaultConfigPath  = "/etc/openit"
 	DefaultDataPath    = "/var/lib/openit"
 	DefaultFilePath    = "/var/lib/openit/files"
