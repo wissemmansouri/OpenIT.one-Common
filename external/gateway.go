@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/wissemmansouri/OpenIT.one-Common/model"
-	"github.com/wissemmansouri/OpenIT.one-Common/utils/http"
+	http2 "github.com/wissemmansouri/OpenIT.one-Common/utils/http"
 )
 
 const (
